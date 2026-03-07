@@ -121,7 +121,7 @@ export default function ChatbotSection() {
               style={{ background: '#E6F7F7', color: '#0EA5A0' }}
             >
               <Icon name="ChatBubbleLeftRightIcon" size={12} />
-             <div className='text-red-500 bg-yellow-100'> Thử ngay miễn phí</div>
+             Thử ngay miễn phí
             </div>
             <h2
               className="text-3xl md:text-4xl lg:text-5xl font-bold font-jakarta"
