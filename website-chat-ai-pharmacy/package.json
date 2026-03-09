@@ -2,42 +2,11 @@
   "name": "website-chat-ai-pharmacy",
   "version": "0.1.0",
   "private": true,
-  "rocketCritical": {
-    "dependencies": [
-      "next",
-      "react",
-      "react-dom",
-      "@dhiwise/component-tagger",
-      "@tailwindcss/typography",
-      "recharts"
-    ],
-    "devDependencies": [
-      "typescript",
-      "@types/node",
-      "@types/react",
-      "@types/react-dom",
-      "@typescript-eslint/eslint-plugin",
-      "@typescript-eslint/parser",
-      "eslint-config-next",
-      "tailwindcss",
-      "autoprefixer",
-      "postcss",
-      "eslint",
-      "prettier",
-      "@netlify/plugin-nextjs"
-    ],
-    "scripts": [
-      "dev",
-      "build",
-      "start",
-      "lint",
-      "lint:fix",
-      "format",
-      "serve",
-      "type-check"
-    ],
-    "warning": "🚨 CRITICAL: DO NOT REMOVE OR MODIFY ABOVE DEPENDENCIES - Required for Next.js 15 TypeScript app functionality"
-  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "tailwind.config.js",
   "scripts": {
     "dev": "next dev -p 4028",
     "build": "next build",
@@ -77,5 +46,41 @@
     "tailwindcss": "^3.4.19",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5"
+  },
+  "rocketCritical": {
+    "dependencies": [
+      "next",
+      "react",
+      "react-dom",
+      "@dhiwise/component-tagger",
+      "@tailwindcss/typography",
+      "recharts"
+    ],
+    "devDependencies": [
+      "typescript",
+      "@types/node",
+      "@types/react",
+      "@types/react-dom",
+      "@typescript-eslint/eslint-plugin",
+      "@typescript-eslint/parser",
+      "eslint-config-next",
+      "tailwindcss",
+      "autoprefixer",
+      "postcss",
+      "eslint",
+      "prettier",
+      "@netlify/plugin-nextjs"
+    ],
+    "scripts": [
+      "dev",
+      "build",
+      "start",
+      "lint",
+      "lint:fix",
+      "format",
+      "serve",
+      "type-check"
+    ],
+    "warning": "🚨 CRITICAL: DO NOT REMOVE OR MODIFY ABOVE DEPENDENCIES - Required for Next.js 15 TypeScript app functionality"
   }
 }
